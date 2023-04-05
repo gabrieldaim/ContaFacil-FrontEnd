@@ -91,7 +91,7 @@
 .criar-conta:hover{
     background-color: #4AE3FF;
     cursor: pointer;
-    transform: scale(1.1);
+
 }
 
 
@@ -164,7 +164,7 @@
         display: none;
     }
     .page{
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .conteudo{
@@ -191,6 +191,10 @@
         bottom: 10rem;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .criar-conta:hover{
+
     }
 
     .formas{
