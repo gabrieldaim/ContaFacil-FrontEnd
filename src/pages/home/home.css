@@ -172,10 +172,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
     .esquerda{
         height: 10%;
+        width: 15rem;
+
     }
 
     .direita{
@@ -185,7 +188,7 @@
     }
 
     .criar-conta{
-        bottom: 0;
+        bottom: 10rem;
         left: 50%;
         transform: translate(-50%, -50%);
     }
