@@ -1,0 +1,206 @@
+.page{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modelo{
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    height: 95%;
+    z-index: -99;
+}
+
+.formas{
+    height: 85%;
+    position: absolute;
+    z-index: -999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.conteudo{
+    width: 53%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda{
+    width: 52.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logo{
+    width: 15rem;
+    margin: 5rem;
+}
+
+.social{
+    height: 50%;
+    display: flex;
+    align-items: end;
+}
+.social-medias{
+    height: 75%;
+}
+
+.direita{
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.titulo{
+    width: 50rem;
+}
+
+.introducao{
+    color: var(--branco);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.1rem;
+}
+
+.criar-conta{
+    width: 21.2rem;
+    height: 4.8rem;
+    background-color: var(--azul-claro);
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20rem;
+    left: 0;
+    border-radius: .5rem 5rem .5rem 5rem;
+    transition: 0.3s ease;
+}
+
+.criar-conta:hover{
+    background-color: #4AE3FF;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+@media (max-width:2350px) {
+    .esquerda{
+        width: 48%;
+    }
+}
+
+@media (max-width:2190px) {
+    .esquerda{
+        width: 46%;
+    }
+}
+
+@media (max-width:2100px) {
+    .esquerda{
+        width: 44%;
+    }
+}
+
+@media (max-width:1980px) {
+    .esquerda{
+        width: 39%;
+    }
+}
+
+@media (max-width:1900px) {
+    .esquerda{
+        width: 38%;
+    }
+}
+
+@media (max-width:1820px) {
+    .esquerda{
+        width: 34%;
+    }
+}
+
+@media (max-width:1660px) {
+    .esquerda{
+        width: 31%;
+    }
+}
+
+@media (max-width:1550px) {
+    .esquerda{
+        width: 28%;
+    }
+}
+
+@media (max-width:1500px) {
+    .esquerda{
+        width: 24%;
+    }
+}
+
+@media (max-width:1024px) {
+    .esquerda{
+        width: 24%;
+    }
+    .modelo{
+        display: none;
+    }
+    .social-medias{
+        display: none;
+    }
+    .page{
+        overflow-x: hidden;
+    }
+
+    .conteudo{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .esquerda{
+        height: 10%;
+    }
+
+    .direita{
+        flex-direction: column;
+        height: 85%;
+        width: 80%;
+    }
+
+    .criar-conta{
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .formas{
+        height: 50%;
+    }
+    .logo{
+        margin: 0;
+    }
+    .titulo{
+        width: 100%;
+    }
+    .introducao{
+        display: none;
+    }
+
+}
